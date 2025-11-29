@@ -8,7 +8,7 @@ services:
      - "3306:3306"
 
  application:
-   image: shaikmustafa/valluri:appimage
+   image: saichaitanya6969/valluri:appimage
    container_name: containerapp
    ports:
      - "1234:8080"
